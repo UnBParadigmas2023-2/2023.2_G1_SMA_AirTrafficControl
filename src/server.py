@@ -11,7 +11,6 @@ from mesa.visualization.UserParam import Slider
 from model import *
 from agent import *
 
-# Defina suas variáveis iniciais aqui
 def agent_portrayal(agent):
     if isinstance(agent, Airplane):
         return {
