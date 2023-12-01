@@ -79,7 +79,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 
 ### Lições Aprendidas
 
-- **Sistema Multiagentes (SMA):** A principal conclusão do estudo é que o paradigma de Sistemas Multiagentes (SMA) foi aplicado com sucesso no desenvolvimento de uma simulação de batalha naval peculiar. A utilização de SMA possibilitou a modelagem de agentes autônomos interativos, o que foi importante para o desenvolvimento de sistemas de controle aéreo.
+- **Sistema Multiagentes (SMA):** A principal conclusão do estudo é que o paradigma de Sistemas Multiagentes (SMA) foi aplicado com sucesso no desenvolvimento de uma simulação de controle aereo. A utilização de SMA possibilitou a modelagem de agentes autônomos interativos, o que foi importante para o desenvolvimento de sistemas de controle aéreo.
 
 
 ### Fragilidades
