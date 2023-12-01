@@ -16,19 +16,14 @@ def agent_portrayal(agent):
     if isinstance(agent, Airplane):
         return {
             "Shape": f"assets/aviao_{agent.heading_x}{agent.heading_y}.png",
-            "Filled": "true",
-            "Layer": 0,
-            "Color": "red",
-            "scale": 0.8,
+            "Filled": "true", "Layer": 1, "scale": 0.8
         }
     elif isinstance(agent, Airport):
 
-        return {"Shape": f"assets/base.png"
-                , "Filled": "true"
-                , "Layer": 0, 
-                "Color": "blue", 
-                "w": 0.5, 
-                "h": 0.5}
+        return {
+            "Shape": f"assets/base.png",
+            "Filled": "true", "Layer": 0, "scale": 1
+        }
 
 grid = CanvasGrid(agent_portrayal, 20, 20, 500, 500)
 
