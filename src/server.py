@@ -22,7 +22,13 @@ def agent_portrayal(agent):
             "scale": 0.8,
         }
     elif isinstance(agent, Airport):
-        return {"Shape": "rect", "Filled": "true", "Layer": 0, "Color": "blue", "w": 0.5, "h": 0.5}
+
+        return {"Shape": f"assets/base.png"
+                , "Filled": "true"
+                , "Layer": 0, 
+                "Color": "blue", 
+                "w": 0.5, 
+                "h": 0.5}
 
 grid = CanvasGrid(agent_portrayal, 20, 20, 500, 500)
 
