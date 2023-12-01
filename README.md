@@ -31,7 +31,7 @@ O projeto AirTrafficControl é uma iniciativa que utiliza sistemas multiagentes 
 
 ## Uso 
 
-**É necessário ter o Python instalado para utilziar as dependencias**
+**É necessário ter o Python instalado para utiliziar as dependências**
 
 ### Como Executar
 ```bash
@@ -70,10 +70,10 @@ https://www.youtube.com/watch?v=5x4WsTnK2Ao
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Erick Levy Barbosa dos Santos     | | Excelente |
-| Pedro Vitor Augusto de Jesus      | | Excelente|
-| Rodolfo Cabral Neves              | <p align='justify'> </p>.  | Excelente |
-| Rodrigo Carvalho dos Santos       |  | Excelente |
+| Erick Levy Barbosa dos Santos     | Melhorias na Interface do Usuário e últimos respaldos da simulação | Excelente |
+| Pedro Vitor Augusto de Jesus      | Criação da versão inicial do sistema | Excelente|
+| Rodolfo Cabral Neves              | Criação do algoritmo que calcula o trajeto do avião para o aeroporto  | Excelente |
+| Rodrigo Carvalho dos Santos       | Melhorias do algoritmo que calcula o trajeto, calculando as colisões e recálculo da rota | Excelente |
 
 ## Outros
 
