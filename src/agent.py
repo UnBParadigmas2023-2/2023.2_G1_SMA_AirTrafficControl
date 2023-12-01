@@ -54,11 +54,22 @@ class Airplane(Agent):
             self.model.grid.move_agent(self, (dx, dy))
             self.origin[0] = dx
             self.origin[1] = dy
-        else:
-            self.model.radar[x0][y0] = self.unique_id
 
-        self.destination[0] = x1
-        self.destination[1] = y1
+        elif self.model.radar[dx][dy] > self.unique_id:
+            dx += 1 if dx<19 else -1
+            self.model.radar[x0][y0] = 0
+            self.model.radar[dx][dy] = self.unique_id
+            self.model.grid.move_agent(self, (dx, dy))
+            self.origin[0] = dx
+            self.origin[1] = dy
+
+        else:
+            dy += 1 if dy<19 else -1
+            self.model.radar[x0][y0] = 0
+            self.model.radar[dx][dy] = self.unique_id
+            self.model.grid.move_agent(self, (dx, dy))
+            self.origin[0] = dx
+            self.origin[1] = dy
 
 class Airport(Agent):
     def __init__(self, unique_id, model, pos):
