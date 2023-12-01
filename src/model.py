@@ -8,9 +8,9 @@ class TraficControler(Model):
     def __init__(self, airplanes, width, height, airports):
         self.airplanes = airplanes
         self.airports = airports
+        self.airport_coordinates = []
         self.grid = MultiGrid(width, height, True)
         self.schedule = RandomActivation(self)
-        self.airport_coordinates = []
 
         for i in range(self.airports):
             x = self.random.randrange(self.grid.width)
@@ -31,3 +31,10 @@ class TraficControler(Model):
 
     def step(self):
         self.schedule.step()
+    
+    def get_airports(self):
+        return self.airport_coordinates
+    
+    def get_airplanes(self):
+        return self.airplanes
+    
