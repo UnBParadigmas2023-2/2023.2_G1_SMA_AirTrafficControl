@@ -43,7 +43,7 @@ class Airplane(Agent):
                 self.heading_y = 1
             elif y0 > y1:
                 y0 = y0 - 1
-                self.heading_y = -1
+
         self.model.grid.move_agent(self, (x0,y0))
 
         self.origin[0] = x0
