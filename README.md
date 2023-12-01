@@ -21,9 +21,9 @@ O projeto AirTrafficControl é uma iniciativa que utiliza sistemas multiagentes 
 
 ## Screenshots
 
-![Poucos agentes](../2023.2_G1_SMA_AirTrafficControl/src/assets/screen1.PNG)
-![Medios agentes](../2023.2_G1_SMA_AirTrafficControl/src/assets/screen2.PNG)
-![Muitos agentes](../2023.2_G1_SMA_AirTrafficControl/src/assets/screen3.PNG)
+![Poucos agentes](./src/assets/screen1.PNG)
+![Medios agentes](./src/assets/screen2.PNG)
+![Muitos agentes](./src/assets/screen3.PNG)
 
 ## Instalação 
 
