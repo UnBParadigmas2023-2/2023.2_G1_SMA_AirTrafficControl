@@ -1,12 +1,14 @@
 from mesa import Model
 from mesa.space import MultiGrid
 from mesa.time import RandomActivation
+import numpy as np
 
 from agent import *
 
 class TraficControler(Model):
     def __init__(self, airplanes, width, height, airports):
         self.airplanes = airplanes
+        self.radar = np.zeros((20, 20))
         self.airports = airports
         self.airport_coordinates = []
         self.grid = MultiGrid(width, height, True)
@@ -31,10 +33,13 @@ class TraficControler(Model):
 
     def step(self):
         self.schedule.step()
-    
+        # print(self.radar)
+
     def get_airports(self):
         return self.airport_coordinates
-    
+
     def get_airplanes(self):
         return self.airplanes
-    
+
+    def get_radar(self):
+        return self.radar
