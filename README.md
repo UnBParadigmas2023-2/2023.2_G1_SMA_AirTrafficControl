@@ -31,7 +31,7 @@ O projeto AirTrafficControl é uma iniciativa que utiliza sistemas multiagentes 
 
 ## Uso 
 
-**É necessário ter o Python instalado para utiliziar as dependências**
+**É necessário ter o Python instalado para utilizar as dependências**
 
 ### Como Executar
 ```bash
@@ -64,16 +64,17 @@ O projeto AirTrafficControl é uma iniciativa que utiliza sistemas multiagentes 
 Caso contrário digite qualquer outra coisa finalizando com o caractere de ponto.
 
 ## Vídeo de apresentação
-https://www.youtube.com/watch?v=5x4WsTnK2Ao
+
+Gravação futuramente
 
 ## Participações
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Erick Levy Barbosa dos Santos     | Melhorias na Interface do Usuário e últimos respaldos da simulação | Excelente |
-| Pedro Vitor Augusto de Jesus      | Criação da versão inicial do sistema | Excelente|
-| Rodolfo Cabral Neves              | Criação do algoritmo que calcula o trajeto do avião para o aeroporto  | Excelente |
-| Rodrigo Carvalho dos Santos       | Melhorias do algoritmo que calcula o trajeto, calculando as colisões e recálculo da rota | Excelente |
+| Erick Levy Barbosa dos Santos     | No paradigma de multiagentes, aprendi como utilizar o Jade e o Mesa. Também estudei sobre o projeto, desenvolvendo a lógica de colisões e criando sprites para o avião e a base do aeroporto para rodar no software Mesa. Fiquei surpreso com a versatilidade do paradigma de multiagentes e gostei muito dessa abordagem. | Excelente |
+| Pedro Vitor Augusto de Jesus      | No âmbito do projeto centrado no paradigma multiagente, minha contribuição envolveu a definição da estrutura dos agentes para o ambiente aeroportuário e aeronaves. Além disso, liderei a implementação dos métodos do servidor que foram essenciais para a inicialização do sistema. Desenvolvi a estrutura fundamental que determina as dimensões da projeção e a quantidade de agentes. Participei ativamente na otimização do comportamento das aeronaves, garantindo que não permanecessem paradas nos aeroportos após a chegada, implementando a lógica de seleção do próximo destino e gerenciando a interação das aeronaves parceladas. | Excelente|
+| Rodolfo Cabral Neves              | Na entrega do paradigma de multiagentes, eu  escrevi um algoritmo guloso que calcula a menor rota do ponto de partida ao aeroporto desejado. Escrevi também a instrução que seleciona os aeroportos de destino de uma forma aleatória. | Excelente |
+| Rodrigo Carvalho dos Santos       | Na entrega do paradigma de multiagentes, eu procurei por projetos similares ao proposto pelo Pedro, encontrei o projeto em SPADE e fiz o fork deste repositório, embora não utilizado, eu busquei rodar projeto, infelizmente sem sucesso, mesmo rodando a interface, estava estático e não mostrava os aviões realizando o percurso, ou alterava os passos. Ao migrar para o MESA, eu modularizei o projeto as pastas de agents e models, além de melhorar o algoritmo de encotrar o caminho e resolver a possível colisão com desvio de rota. | Excelente |
 
 ## Outros
 
