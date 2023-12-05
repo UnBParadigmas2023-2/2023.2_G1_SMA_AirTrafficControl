@@ -95,6 +95,9 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 
 - **Melhorias na Lógica de Colisão:** A lógica de colisão pode ser otimizada para evitar duplicação de código e torná-la mais eficiente.
 
+## Video apresentação
+
+https://www.youtube.com/watch?v=3jbTe8YQijg
 
 ## Fontes
 
